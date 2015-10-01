@@ -1,0 +1,33 @@
+﻿<Window x:Class="Karate.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Home" Height="300" Width="300">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,18,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBlock Text="البطولة " HorizontalAlignment="Left" Margin="199,19,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23" Width="70"/>
+        <TextBlock Text="المرحلة العمرية" HorizontalAlignment="Left" Margin="193,62,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock Text="المسابقة" HorizontalAlignment="Left" Margin="199,96,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock  Text="الوزن" HorizontalAlignment="Left" Margin="199,138,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock Text="مكان البطولة" HorizontalAlignment="Left" Margin="193,169,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBlock Text="تاريخ البطولة" HorizontalAlignment="Left" Margin="193,197,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="64,56,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="117" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.114"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,95,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,131,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,168,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,196,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="249" Margin="10,10,0,0" VerticalAlignment="Top" Width="272"/>
+        <Button Content="تسجيل بيانات اللاعبين" HorizontalAlignment="Left" Margin="97,224,0,0" VerticalAlignment="Top" Width="172"/>
+        <Button Content="الرجوع" HorizontalAlignment="Left" Margin="17,224,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+
+</Window>
